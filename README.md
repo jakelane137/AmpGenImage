@@ -5,21 +5,16 @@ This is a simple tool that makes an SIF file that you can use singularity to run
 
 You need root privilages to build singularity images!
 
-To build the image just use
+To build the image, just use the shell script:
 
-```sudo singularity build myImage.sif Singularity```
+```sudo ./makeImage.sh```
 
-then to actually run AmpGen programs you will need a wrapper script that contains
+which will make an image, called runImage.sif, in the directory. 
 
+To run programs with singularity use
+
+```singularity run runImage.sif
+source /setup_ampgen.sh
+#Your AmpGen program here, e.g.
+Generator example_kspipi.opt
 ```
-source /sw/root/install/bin/thisroot.sh
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/sw/AmpGen/install/lib
-export PATH=$PATH:/sw/AmpGen/install/bin
-```
-
-
-as a preamble
-
-then 
-
-```singularity run myImage.sif ./myScript.sh```
