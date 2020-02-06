@@ -1,7 +1,7 @@
 EventType D0 K0S0 pi- pi+
 nEvents 10000
 
-D0{rho(770){pi+,pi-},K0S0} Fix 1 0 Fix 0 0
-D0{K*(892)+{K0S0,pi+},pi-}_Re Fix 0.137451 0.00777508 Fix -0.155314 0.00718778 
+D0{rho(770)0{pi+,pi-},K0S0} Fix 1 0 Fix 0 0
+D0{K*(892)+{K0S0,pi+},pi-} Fix 0.137451 0.00777508 Fix -0.155314 0.00718778 
 
 

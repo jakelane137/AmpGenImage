@@ -1,0 +1,48 @@
+#EventType D0 K0S0 pi- pi+
+
+makeCPConj false
+doDebugNorm false
+pCorrelatedSum::corehentIntegral false
+pCorrelatedSum::pdebug false
+pCorrelatedSum::updateNorms false 
+CorrelatedLL::debug false
+doPCorrSum true
+Particle::DefaultModifier BL
+Particle::SpinFormalism   Canonical
+
+
+Import poly.opt 
+
+TagTypes  {
+    "KK 	 D0{K+,K-}"
+}
+
+Efficiencies {
+    "D0{K+,K-} 	 1"
+    "D0{K+,pi-} 	 1"
+    "D0{K-,pi+} 	 1"
+    "D0{K0S0,pi0} 	 1"
+    "D0{K0S0,pi+,pi-} 	 1"
+    "Dbar0{K+,K-} 	 1"
+    "Dbar0{K+,pi-} 	 1"
+    "Dbar0{K-,pi+} 	 1"
+    "Dbar0{K0S0,pi0} 	 1"
+    "Dbar0{K0S0,pi+,pi-} 	 1"
+}
+
+BranchingRatios {
+    "D0{K+,K-} 	 0.00401"
+    "D0{K+,pi-} 	 0.001398"
+    "D0{K-,pi+} 	 0.0393"
+    "D0{K0S0,pi0} 	 0.0120"
+    "D0{K0S0,pi+,pi-} 	 0.0285"
+    "Dbar0{K+,K-} 	 0.00401"
+    "Dbar0{K-,pi+} 	 0.001398"
+    "Dbar0{K+,pi-} 	 0.0393"
+    "Dbar0{K0S0,pi0} 	 0.0120"
+    "Dbar0{K0S0,pi+,pi-} 	 0.0285"
+}
+D0{K+,K-}_Re 2 1 0
+D0{K+,K-}_Im 2 0 0
+Dbar0{K+,K-}_Re 2 1 0
+Dbar0{K+,K-}_Im 2 0 0

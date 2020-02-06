@@ -1,0 +1,67 @@
+ParticlePropertiesList::Alias D0 D1
+ParticlePropertiesList::Alias Dbar0 Dbar1
+ParticlePropertiesList::Alias PiPi00 PiPibar00
+#EventType D0 K0S0 pi- pi+
+
+Import model.opt
+
+
+
+QcGen::X Fix 1 0.01
+
+pCorrelatedSum::Test Fix 4 0 
+pCorrelatedSum::C00 Free 0 0.001 -6.28 6.28
+
+pCorrelatedSum::C01 Fix 0 0.001 
+pCorrelatedSum::C10 Fix 0.0 0.001 
+
+pCorrelatedSum::C02 Fix 0 0.001 
+pCorrelatedSum::C11 Fix 0 0.001 
+pCorrelatedSum::C20 Fix 0 0.001 
+
+pCorrelatedSum::C03 Fix 0 0.001 
+pCorrelatedSum::C12 Fix 0 0.001 
+pCorrelatedSum::C21 Fix 0 0.001 
+pCorrelatedSum::C30 Fix 0 0.001 
+
+pCorrelatedSum::C04 Fix 0 0.001 
+pCorrelatedSum::C13 Fix 0 0.001 
+pCorrelatedSum::C22 Fix 0 0.001 
+pCorrelatedSum::C31 Fix 0 0.001 
+pCorrelatedSum::C40 Fix 0 0.001 
+
+pCorrelatedSum::C50 Fix 0 0.001 
+pCorrelatedSum::C41 Fix 0 0.001 
+pCorrelatedSum::C32 Fix 0 0.001 
+pCorrelatedSum::C23 Fix 0 0.001 
+pCorrelatedSum::C14 Fix 0 0.001 
+pCorrelatedSum::C05 Fix 0 0.001 
+
+pCorrelatedSum::C60 Fix 0 0.001 
+pCorrelatedSum::C51 Fix 0 0.001 
+pCorrelatedSum::C42 Fix 0 0.001 
+pCorrelatedSum::C33 Fix 0 0.001 
+pCorrelatedSum::C24 Fix 0 0.001 
+pCorrelatedSum::C15 Fix 0 0.001 
+pCorrelatedSum::C06 Fix 0 0.001 
+
+pCorrelatedSum::C70 Fix 0 0.001 
+pCorrelatedSum::C61 Fix 0 0.001 
+pCorrelatedSum::C52 Fix 0 0.001 
+pCorrelatedSum::C43 Fix 0 0.001 
+pCorrelatedSum::C34 Fix 0 0.001 
+pCorrelatedSum::C25 Fix 0 0.001 
+pCorrelatedSum::C16 Fix 0 0.001 
+pCorrelatedSum::C07 Fix 0 0.001 
+
+pCorrelatedSum::C80 Fix 0 0.001 
+pCorrelatedSum::C71 Fix 0 0.001 
+pCorrelatedSum::C62 Fix 0 0.001 
+pCorrelatedSum::C53 Fix 0 0.001 
+pCorrelatedSum::C44 Fix 0 0.001 
+pCorrelatedSum::C35 Fix 0 0.001 
+pCorrelatedSum::C26 Fix 0 0.001 
+pCorrelatedSum::C17 Fix 0 0.001 
+pCorrelatedSum::C08 Fix 0 0.001 
+
+
